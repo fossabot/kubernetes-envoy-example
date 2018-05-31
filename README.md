@@ -23,6 +23,7 @@ Inventory of items.
 The basic flow of data through the service is
 
 ![Logical Architecture](./logical.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fevalsocket%2Fkubernetes-envoy-example.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fevalsocket%2Fkubernetes-envoy-example?ref=badge_shield)
 
 Services do not communicate directly with one another. All communication is via
 Envoy.  An Envoy instance - named _ingress_ - acts as the entrypoint into the cluster.
@@ -118,3 +119,5 @@ TODO: grafana dashboards
 ## LICENSE
 
 See [LICENSE](./LICENSE)
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fevalsocket%2Fkubernetes-envoy-example.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fevalsocket%2Fkubernetes-envoy-example?ref=badge_large)
